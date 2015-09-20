@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:ns1="http://www.bounzd.com/index/soap"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ns2="http://www.bounzd.com/index/wsdl"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns2:authenticate>
+			<xsd:string>WkGSbtqKJ9zF/pK02w6gpye7KHmRRroqd+ou6PYnzIc=</xsd:string>
+		</ns2:authenticate>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns1:getCallDetails>
+			<uniq_id xsi:type="xsd:string">1406099571.444 </uniq_id>
+		</ns1:getCallDetails>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
